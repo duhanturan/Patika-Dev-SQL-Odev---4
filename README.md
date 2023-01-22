@@ -7,7 +7,7 @@ SELECT DISTINCT replacement_cost FROM FILM ;
 ````
 ### 2- film tablosunda bulunan replacement_cost sütununda birbirinden farklı kaç tane veri vardır?
 ````sql
-SELECT DISTINCT COST(replacement_cost) FROM FILM;
+SELECT DISTINCT COUNT(replacement_cost) FROM FILM;
 ````
 ### 3- film tablosunda bulunan film isimlerinde (title) kaç tanesini T karakteri ile başlar ve aynı zamanda rating 'G' ye eşittir?
 ````sql
